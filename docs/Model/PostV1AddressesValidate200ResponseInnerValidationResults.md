@@ -1,0 +1,11 @@
+# # PostV1AddressesValidate200ResponseInnerValidationResults
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**result_code** | **string** | _Validation Results Result Code_&lt;br/&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;result_code&lt;/th&gt;&lt;th&gt;result_description&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;V003&lt;/td&gt;&lt;td&gt;&amp;ldquo;To Country Verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;V002&lt;/td&gt;&lt;td&gt;&amp;ldquo;Street Address, City, State/Province, and Postal Code are valid, but a suite or apt number may be missing.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;V001&lt;/td&gt;&lt;td&gt;&amp;ldquo;Full Address Verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P002&lt;/td&gt;&lt;td&gt;&amp;ldquo;City, State/Province, and Postal Code are valid, but the Street could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P003&lt;/td&gt;&lt;td&gt;&amp;ldquo;The City could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P004&lt;/td&gt;&lt;td&gt;&amp;ldquo;The State/Province could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P005&lt;/td&gt;&lt;td&gt;&amp;ldquo;City, State/Province, or Postal Code is invalid.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P001&lt;/td&gt;&lt;td&gt;&amp;ldquo;Street, City, State/Province, and Postal Code are valid, but the Street Number could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;P006&lt;/td&gt;&lt;td&gt;&amp;ldquo;State/Province and Postal Code are valid, but City and Street could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;E001&lt;/td&gt;&lt;td&gt;&amp;ldquo;The Address provided could not be verified.&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; | [optional]
+**result_description** | **string** | _Validation Results Result Description_ | [optional]
+**result_details** | [**\OpenAPI\Client\Model\PostV1AddressesValidate200ResponseInnerValidationResultsResultDetailsInner[]**](PostV1AddressesValidate200ResponseInnerValidationResultsResultDetailsInner.md) | _Validation Results Result Details_ | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
